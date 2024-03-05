@@ -1,0 +1,127 @@
+1.
+r -> raw string; nullifies the backslash when associated with string portion
+re.search(pattern, string)
+backslash is treated differently in text string portion
+re.search('n','\n') ; can't recognize/no result
+re.search('n','\\n') ; can recognize
+re.search('n', r'\n\n\n') ; can recognize
+re.search('\n','\n') ; can recognize
+re.search(r'\n','\n') ; can recognize, doesnot really affect applying raw string on pattern
+re.search(r'\n',r'\n\n') ; can't recognize/ no result
+
+2. Match & Search
+re.search(pattern, string,flags)  ; searches anywhere in the sentence
+re.match(pattern, string,flags)  ; only beginning of the string
+re.match("c","abcdef") ; returns a null value/does not display anything
+re.search("c","abcdef") ; returns a match
+bool(re.match("c","abcdef")) ; you will get a False
+bool(re.match("a","abcdef")) ; you will get a True
+-if we have multiple instance in a string, re.search pulls out the first instance which is located at first only
+re.search("c","abcdefc") ; pulls out the first instance of c only
+-also works with new line
+re.search("c","abdef\nc") ; it can pull out c
+-but re.match doesnot derive instances from the new line, only beginning
+re.match("c","abdef\nc") ; match does not work
+-print your matched output as a string output both for re.match and re.search:
+re.match("a","abdefc").group(); default value of group is 0, and a is outputted
+re.search("c","abcdef").group(); default value of group is 0, and c is outputted
+-Also possible to output character set/patterns
+re.search('n.+',"abcdefnc abcd").group(); outputs 'nc abcd'
+-possible to know the start and end of index using re.search
+re.search("c","abdef\nc").start(); outputs 6
+re.search("c","abdef\nc").end(); outputs 7
+-Literal matching
+re.search('na',"abdefnc abcd"); returns nothing
+re.search('n|a',"abdefnc abcd"); matches first instance of a only
+re.search('n|a|b',"bcdefnc abcda"); return first instance of b
+-we can use findall to pull out all instances
+re.findall('n|a',"bcdefnc abcda") ; ['n','a','a'] are returned
+re.search('abcd',"abcdefnc abcd"); returns first instance of abcd
+re.findall('abcd',"abcdefnc abcd"); returns ['abcd','abcd']
+
+3. Character sets- Quantifiers
+special metacharacters that represent special characters
+-\w matches alphanumeric characters: [a-zA-z0-9_]
+re.search( '\w\w\w\w',"abcdefnc abcd"); returns ['abcd']
+re.search( '\w\w\w\w',"ab_cdefnc abcd"); returns ['ab_c']
+re.search( '\w\w\w',"a3.!-!"); does not return anything, we need consecutive characters to be true
+re.search( '\w\w\w',"a33.!-!").group(); 'a33'
+-\W represents everything what \w does not represent
+re.search( '\w\w\W',"a3.!-!") ; now it is going to match 'a3.'
+re.search( '\w\w\W',"a3 .!-!"); it is going to match 'a3 '
+-Quantifiers- if you want to repeat something use quantifiers
+'+' = 1 or more
+'?' = 0 or 1
+'*' = 0 or more
+'{n,m}' = n- least amount of repitition & m- most amount of repitition
+{,3},{3,} = {,3}->any number upto 3 and {3,}->3 to infinity
+re.search('\w+',"abcdefnc abcd").group(); will return 'abcdefnc', that is as long as the criteria is met , upto then it will return
+re.search('\w+\W+\w+',"abcdefnc   abcd").group(); will return 'abcdefnc   abcd'
+re.search('\w+\W?\w+',"abcdefnc abcd").group(); will return 'abcdefnc abcd',
+re.search('\w+\W?\w+',"abcdefncabcd").group();will also return 'abcdefncabcd'
+-Pulling out specific characters
+re.search('\w{3}','aaaaaaaaaa').group(); will match ['aaa']
+re.search('\w{1,4}','aaaaaaaaaa').group(); will match ['aaaa']
+re.search('\w{1,10}\W{0,4}\w+',"abcdefnc abcd").group(); will match ['abcdefnc abcd']
+re.search('\w{1,}\W{0,}\w+',"abcdefnc abcd").group(); will match ['abcdefnc abcd']
+
+4. Character sets->Custom character sets
+'\d' = matches digits [0-9]
+'\D' = matches any non digit character; ~\d
+string = '23abced++'
+re.search('\d+',string).group(); will return 2
+'\s' = any white space characters - new lines, tabs, spaces, etc
+'\S'= any non white space characters
+re.search('\s+',string).group(); will return nothing
+re.search('\S+',string).group(); will return the full string '23abced++'
+string= '''Robots are braching out.'''
+re.findall('\S+',string); outputs= ['Robots','are','branching','out']
+' '.join(re.findall('\S+',string)); joins back, 'Robots are branching out.'
+Dot-> . = it matches any character other than the new line.
+re.search('.+',string).group(); to avoid strings after the new line(no new line)
+re.search('.+',string,flags = re.DOTALL).group(); pulls out all the characters along with the new line
+-Creating your own character sets
+'-' is a metacharacter when used in [], indicated to specify range. So when it is used as hyphen we have to use \- to use it as regular character
+string= 'Hello, There, How, Are, You'
+re.findall('[A-Z]', string); pulss out ['H','T','H','A','Y']
+re.findall('[A-Z,]', string); pulss out ['H',',','T',',','H',',','A',',','Y']
+string= 'Hello, There, How, Are, You...'
+re.findall('[A-Z,.]', string); here . is only a period,many character sets will lose their meaning inside the squared bracket.pulss out ['H',',','T',',','H',',','A',',','Y','.','.','.']
+re.findall('[A-Za-z,\s.]', string); pulls out entire string's character
+
+5. Quantifiers with Custom sets
+string= 'HELLO, There, How, Are, You'
+re.findall('[A-Z]+',string); pulss out ['HELLO','T','H','A','Y']
+re.findall('[A-Z]{2,}',string); ['HELLO'] , cause you are finding letters between A-Z which are in your string for atleast 2 times, only HELLO has that format, others have only 1 character, so not atleast 2 times.
+re.findall('[A-Z]{1,}',string); outputs ['HELLO', 'T', 'H', 'A', 'Y']
+re.findall('[A-Za-z,\s]+',string); outputs ['HELLO, There, How, Are, You']
+re.findall('[A-Z]?[a-z,\s]+',string); outputs ['O, ', 'There, ', 'How, ', 'Are, ', 'You']
+re.search('[^A-Za-z\s,]+',string); returns nothing, we are wanting multiple instances of anything that is not this custom set...
+string= 'HELLO, There, How, Are, You...'
+re.search('[^A-Za-z\s,]+',string); outputs match='...'
+re.findall('[^A-Z]+',string); outputs [', ', 'here, ', 'ow, ', 're, ', 'ou...']
+re.search('[^A-Z]+',string); match=', '
+re.findall('[^A-Z]+',string); outputs [', ', 'here, ', 'ow, ', 're, ', 'ou...']
+re.findall('[^A-Za-z]+',string); outputs [', ', ', ', ', ', ', ', '...']
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
