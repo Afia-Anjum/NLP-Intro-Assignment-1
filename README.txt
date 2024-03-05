@@ -1,6 +1,3 @@
-===AUTHORS===
-Shehroze Khan (ccid: shehroze) and Afia Anjum (ccid: afia)
-
 ===SOURCES===
 1. https://www.rexegg.com/regex-quickstart.html (REGEX CHEAT SHEET)
 2. https://stackabuse.com/using-regex-for-text-manipulation-in-python/ (USEFUL SYNTAX GUIDE FOR REGEX LIBRARY IN PYTHON)
