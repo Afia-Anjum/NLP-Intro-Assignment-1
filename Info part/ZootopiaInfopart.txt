@@ -1,0 +1,57 @@
+{{Infobox film
+|name = Zootopia
+|image = Zootopia.jpg
+|alt = 
+|caption = Theatrical release poster
+|director = {{plainlist| 
+*[[Byron Howard]] 
+*[[Rich Moore]]}}
+
+|producer = [[Clark Spencer]]
+|screenplay = {{plainlist| 
+*[[Jared Bush]] 
+*[[Phil Johnston (filmmaker)|Phil Johnston]]}}
+
+|story = {{plainlist| 
+*Byron Howard 
+*Rich Moore 
+*Jared Bush 
+*[[Jim Reardon]] 
+*Josie Trinidad 
+*Phil Johnston 
+*[[Jennifer Lee (filmmaker)|Jennifer Lee]]}}
+
+|starring = {{plainlist| 
+*[[Ginnifer Goodwin]] 
+*[[Jason Bateman]] 
+*[[Idris Elba]] 
+*[[Jenny Slate]] 
+*[[Nate Torrence]] 
+*[[Bonnie Hunt]] 
+*[[Don Lake]] 
+*[[Tommy Chong]] 
+*[[J. K. Simmons]] 
+*[[Octavia Spencer]] 
+*[[Alan Tudyk]] 
+*[[Shakira]]}}
+
+|music = [[Michael Giacchino]]
+|cinematography = {{plainlist| 
+*Nathan Warner (layout) 
+*Brian Leach (lighting)}}
+
+|editing = {{plainlist| 
+*Fabienne Rawley 
+*Jeremy Milton}}
+
+|studio = {{plainlist| 
+*[[Walt Disney Pictures]] 
+*[[Walt Disney Animation Studios]]}}
+
+|distributor = [[Walt Disney Studios Motion Pictures|Walt Disney StudiosMotion Pictures]]
+|released = {{Film date|2016|2|13|Belgium|2016|3|4|United States}}
+|runtime = 108 minutes
+|country = United States
+|language = English
+|budget = $150{{nbsp}}million
+|gross = $1.024{{nbsp}}billion}}

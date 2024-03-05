@@ -1,0 +1,21 @@
+{{Infobox film
+| name           = Brave
+| image          = Brave Poster.jpg
+| alt            = A girl with long, curly red hair stares at the viewer holding a bow and an arrow. Behind her is the film's title while at the left shows a bear staring at her.
+| caption        = Theatrical release poster
+| director       = [[Mark Andrews (filmmaker)|Mark Andrews]][[Brenda Chapman]]
+| producer       = [[Katherine Sarafian]]
+| screenplay     = Mark Andrews[[Steve Purcell]]Brenda Chapman[[Irene Mecchi]]
+| story          = Brenda Chapman
+| starring       = [[Kelly Macdonald]][[Billy Connolly]][[Emma Thompson]][[Julie Walters]][[Robbie Coltrane]][[Kevin McKidd]][[Craig Ferguson]]
+| music          = [[Patrick Doyle]]
+| cinematography = Robert Anderson (camera)[[Danielle Feinberg]] (lighting)
+| editing        = Nicholas C. Smith
+| studio         = [[Walt Disney Pictures]][[Pixar|Pixar Animation Studios]]
+| distributor    = [[Walt Disney Studios Motion Pictures|Walt Disney StudiosMotion Pictures]]
+| released       = {{Film date|2012|6|10|[[Seattle International Film Festival|SIFF]]|2012|6|22|United States}} 
+| runtime        = 93 minutes
+| country        = United States
+| language       = English
+| budget         = $185 million
+| gross          = $540.4 million}}

@@ -1,0 +1,36 @@
+{{Infobox film
+| name           = The Incredibles
+| image          = The Incredibles.jpg
+| caption        = Theatrical release poster
+| alt            = Theatrical release poster depicting the Incredibles running from an explosion
+| border         = yes
+| director       = [[Brad Bird]]
+| producer       = [[John Walker (film producer)|John Walker]]
+| writer         = Brad Bird
+| starring       = {{Plain list| 
+* [[Craig T. Nelson]] 
+* [[Holly Hunter]] 
+* [[Sarah Vowell]] 
+* [[Spencer Fox]] 
+* [[Jason Lee (actor)|Jason Lee]] 
+* [[Samuel L. Jackson]] 
+* [[Elizabeth Peña]]}}
+
+| music          = [[Michael Giacchino]]
+| cinematography = {{Plainlist| 
+* Andrew Jimenez 
+* Patrick Lin 
+* [[Janet Lucroy]]}}
+
+| editing        = [[Stephen Schaffer]]
+| production companies = {{Plainlist| 
+* [[Walt Disney Pictures]] 
+* [[Pixar Animation Studios]]}}
+
+| distributor    = [[Walt Disney Studios Motion Pictures|Buena Vista Pictures Distribution]]
+| released       = {{Film date|2004|10|27|[[BFI London Film Festival]]|2004|11|5|United States}}
+| runtime        = 115 minutes
+| language       = English
+| country        = United States
+| budget         = $92&nbsp;million
+| gross          = $633&nbsp;million}}

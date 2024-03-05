@@ -1,0 +1,52 @@
+{{Infobox film
+| name           = Antz
+| image          = Antz-Poster.jpg
+| caption        = Theatrical release poster
+| border         = yes
+| director       = {{Plainlist| 
+* [[Eric Darnell]] 
+* [[Tim Johnson (film director)|Tim Johnson]]}}
+
+| producer       = {{Plainlist| 
+* [[Brad Lewis]] 
+* [[Aron Warner]] 
+* Patty Wooton}}
+
+| writer         = {{Plainlist| 
+* [[Paul Weitz (filmmaker)|Paul Weitz]] 
+* [[Chris Weitz]] 
+* [[Todd Alcott]]}}
+
+| story          = 
+| starring       = {{Plainlist| 
+* [[Woody Allen]] 
+* [[Dan Aykroyd]] 
+* [[Anne Bancroft]] 
+* [[Jane Curtin]] 
+* [[Danny Glover]] 
+* [[Gene Hackman]] 
+* [[Jennifer Lopez]] 
+* [[John Mahoney]] 
+* [[Paul Mazursky]] 
+* [[Grant Shaud]] 
+* [[Sylvester Stallone]] 
+* [[Sharon Stone]] 
+* [[Christopher Walken]]}}
+| music          = {{Plainlist| 
+* [[John Powell (composer)|John Powell]] 
+* [[Harry Gregson-Williams]]}}
+
+| cinematography = [[Simon J. Smith]]
+| editing        = Stan Webb
+| studio         = {{Plainlist| 
+* [[DreamWorks Pictures]] 
+* [[DreamWorks Animation]] 
+* [[Pacific Data Images]]}}
+
+| distributor    = DreamWorks Pictures
+| released       = {{Film date|1998|9|19|[[Toronto International Film Festival|TIFF]]|1998|10|2|United States}}
+| runtime        = 83 minutes
+| country        = United States
+| language       = English
+| budget         = {{US$|link=yes}}42–105 million
+| gross          = {{US$|link=yes}}171.8 million}}

@@ -1,0 +1,22 @@
+{{Infobox film 
+| name           = Ratatouille
+| image          = RatatouillePoster.jpg
+| caption        = Theatrical release poster
+| border         = yes
+| alt            = Protagonist Remy, a rat, is smiling nervously as he clings to a piece of cheese while he is pinned to a door by sharp knives and forks. The film's tagline, "He's dying to become a chef", is displayed along the top. A logo with the film's title and pronunciation is shown at the bottom, with the dot on the 'i' in "Ratatouille" doubling as a rat's nose with whiskers and a chef's toque.
+| director       = [[Brad Bird]]
+| producer       = [[Brad Lewis]]
+| screenplay     = Brad Bird
+| story          = {{unbulleted list|[[Jan Pinkava]]|Jim Capobianco|Brad Bird}}
+| music          = [[Michael Giacchino]]
+| starring       = {{unbulleted list|[[Patton Oswalt]]|[[Ian Holm]]|[[Lou Romano]]|[[Janeane Garofalo]]|[[Brad Garrett]]|[[Peter O'Toole]]|[[Brian Dennehy]]|[[Peter Sohn]]|[[Will Arnett]]}}
+| cinematography = {{unbulleted list|[[Sharon Calahan]]|Robert Anderson}}
+| editing        = {{unbulleted list|[[Darren T. Holmes]]|Stan Webb}}
+| studio         = {{unbulleted list|[[Walt Disney Pictures]]|[[Pixar Animation Studios]]}}
+| distributor    = [[Walt Disney Studios Motion Pictures|Buena Vista Pictures Distribution]]
+| released       = {{Film date|2007|6|22|[[Dolby Theatre|Kodak Theatre]]|2007|6|29|United States}}
+| runtime        = 111 minutes
+| country        = United States
+| language       = English
+| budget         = $150&nbsp;million
+| gross          = $620.7&nbsp;million}}
